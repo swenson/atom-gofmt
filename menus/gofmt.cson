@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'gofmt current buffer': 'gofmt:gofmt'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'gofmt'
+      'submenu': [
+        { 'label': 'gofmt', 'command': 'gofmt:gofmt' }
+      ]
+    ]
+  }
+]

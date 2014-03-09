@@ -1,0 +1,15 @@
+{
+  "name": "gofmt",
+  "main": "./lib/gofmt",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Run gofmt on your golang buffer",
+  "repository": "https://github.com/swenson/atom-gofmt",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "temp": ">=0.6"
+  }
+}
